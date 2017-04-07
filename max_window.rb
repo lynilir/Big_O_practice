@@ -11,3 +11,5 @@ def max_windowed_range(array, window_size)
 end
 
 p max_windowed_range([1, 0, 2, 5, 4, 8], 3)
+
+git filter-branch -f --env-filter "GIT_AUTHOR_NAME='Jon Jaffe'; GIT_AUTHOR_EMAIL='your_email'; GIT_COMMITTER_NAME='Jon Jaffe'; GIT_COMMITTER_EMAIL='your_email';" HEAD
